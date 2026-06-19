@@ -60,3 +60,14 @@ ScrollReveal({
     loop: true
 
   });
+/*cursor*/
+const cursor = document.querySelector(".custom-cursor__cursor");
+const cursor2 = document.querySelector(".custom-cursor__cursor-two");
+
+document.addEventListener("mousemove", (e) => {
+    cursor.style.left = e.clientX + "px";
+    cursor.style.top = e.clientY + "px";
+
+    cursor2.style.left = e.clientX + "px";
+    cursor2.style.top = e.clientY + "px";
+});
