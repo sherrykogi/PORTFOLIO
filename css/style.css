@@ -23,9 +23,8 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
 }
-body.custom-cursor {
-    cursor: none;
-}
+
+
 .custom-cursor__cursor {
   width: 35px;
   height: 35px;
